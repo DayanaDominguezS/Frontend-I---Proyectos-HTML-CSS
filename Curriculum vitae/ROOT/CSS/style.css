@@ -1,0 +1,48 @@
+#imagenInicial {   
+    width: 100px;
+    height: 146.37px;
+    background: #e5e5e5;
+}
+
+h1  {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #005677;
+    background: #C4C4C4;
+}
+
+center {
+    background: #E6E6E6;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    background: #C4C4C4;
+}
+
+.bloqueAlinea {
+    display: inline-block;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.preguntasSesion1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: #005677;
+}
+
+#icoInstagram {
+    left: 10cm;
+    right: 10cm;
+}
