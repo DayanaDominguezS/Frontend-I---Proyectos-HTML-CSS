@@ -1,7 +1,12 @@
+header {
+    background-image:url("../img/Banner.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
 #imagenInicial {   
-    width: 100px;
-    height: 146.37px;
-    background: #e5e5e5;
+    width: 200px;
+    height: 246.37px;
 }
 
 h1  {
@@ -9,10 +14,6 @@ h1  {
     text-align: center;
     color: #005677;
     background: #C4C4C4;
-}
-
-center {
-    background: #E6E6E6;
 }
 
 h2 {
@@ -38,11 +39,10 @@ h2 {
 footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background: #005677;
+    background: rgb(0, 255, 255);
 }
 
-#icoInstagram {
-    left: 10cm;
-    right: 10cm;
+i {
+    font-size: 25px;
+    color:white;
 }
