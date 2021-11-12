@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    height: 100px;
+    color: #F3F3F3;
+    margin: 0px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.opcionesNav {
+    width: 284px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+header img {
+    width: 234px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.bloque1 {
+    width: 490px;
+    height: 350px;
+    background-image: url(../Img/delivery.jpg);
+    margin: 35px 5px 35px 19px
+}
+
+.bloque2 {
+    width: 491px;
+    height: 350px;
+    margin: 35px 19px 35px 0px;
+}
+
+.letraRoja {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: bold;
+}
+    
+#letraBlanca {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letraCuerpo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.margen {
+    margin-top: 61px;
+    margin-left: 160px;
+}
+
+.margen2 {
+    margin-left: 69px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separacion {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #222222;
+    height: 150px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 112px;
+}
+
+footer img {
+    width: 212px;
+    height: 80px;
+    margin-right: 42px;
+}

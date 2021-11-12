@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#fondoencabezado1 {
+background-color: #1CD1B0;
+}
+
+.card {
+    width: 600px;
+    height: 529px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cardSupBatman {
+
+    background-image: url(../Img/Fondo\ Batman.png);
+    background-size: cover;
+}
+
+.cardInfBatman {
+    width: 300px;
+    height: 336px;
+    margin: 0px;
+    background-color: #F3F3F3;
+}
+
+.marcoCirculo {
+    border-radius: 50%;
+    position: absolute;
+    top:128px;
+    left: 90px;
+}
+
+.cardSupHar {
+    width: 300px;
+    height: 193px;
+    background-image: url(../Img/Fondo\ Harley.png);
+    background-size: cover;
+}
+
+.cardInfHar {
+    width: 300px;
+    height: 336px;
+    margin: 0px;
+    background-color: #F3F3F3;
+}
