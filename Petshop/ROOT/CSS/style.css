@@ -128,6 +128,15 @@ nav {
     text-align: center;
 }
 
-/*Ajustes cuerpo página*/
+#contenedorContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intups {
+    display: flex;
+    flex-direction: column;
+}
 
 
