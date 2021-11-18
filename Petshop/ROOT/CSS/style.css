@@ -69,6 +69,11 @@ button {
     padding-right: 12px;
 }
 
+#contactanos {
+    color: #3C2313;
+    font-size: 25px;
+}
+
 
 /* Cenefas de fondo */
 
@@ -138,5 +143,6 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 
 
