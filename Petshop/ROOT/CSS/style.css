@@ -144,5 +144,20 @@ nav {
     flex-direction: column;
 }
 
+.fa-bars {
+    opacity: 0;
+}
 
+@media (max-width: 768px) {
+    .fa-paw {
+        opacity: 0;
+    }
 
+    #espacioTextoSup3 {
+        display: none;
+    }
+
+    .fa-bars {
+        opacity: 100;
+    }
+}

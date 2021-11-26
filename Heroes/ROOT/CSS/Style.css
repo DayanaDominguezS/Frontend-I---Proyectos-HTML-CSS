@@ -1,4 +1,4 @@
-body {
+.principalBody {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,6 +20,26 @@ align-items: center;
     display: flex;
     align-items: center;
     margin: 0px;
+}
+
+.formulario {
+    display: flex;
+    font-size: 16px;
+}
+
+.formulario li {
+    margin-right: 20px;
+}
+
+.formulario li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.encabezadoHeroes2 {
+    display: flex;
+    justify-content: end;
+    background-color: #001D2D;
 }
 
 #ubicacionTarjetas {
@@ -121,6 +141,67 @@ align-items: center;
     padding-left: 16px;
     display: flex;
     align-items: center;
+}
+
+/*REGISTRO*/
+
+.registroBody {
+    font-family: 'Inter', sans-serif;
+}
+
+#tituloRegistro {
+    font-size: 72px;
+}
+
+#tamañoContenido {
+    height: 952px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenidoFormulario {
+    width: 646.32px;
+    height: 574px;
+    font-size: 21.48px;
+}
+
+.centradoFormulario {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ingreso{
+    height: 60px;
+    font-size: 20px;
+}
+
+#pieFormulario {
+    text-align: center;
+}
+
+#pieFormulario a {
+    text-decoration: none;
+}
+
+.botones {
+    border-radius: 23.01px;
+    width: 300px;
+    margin-top: 55px;
+    height: 53.79px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#boton1 {
+    background-color: #1CD1B0;
+    color: #000000;
+}
+
+#boton2 {
+    background-color: #888888;
+    color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
