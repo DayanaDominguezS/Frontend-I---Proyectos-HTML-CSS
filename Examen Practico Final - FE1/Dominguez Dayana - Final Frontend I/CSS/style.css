@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-image: url(../Imagenes/bg-tablet-pattern.svg);
+}
+
+/* ORGANIZACIÓN CONTENIDO Y ESTILOS DE TEXTO*/
+
+    .ordenCuerpo, header, header nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* HEADER */
+
+        header {
+            height: 174px;
+        }
+
+        #logo {
+            height: 23.74px;
+        }
+
+        /* ICONO HAMBURGUESA */
+
+            .fas {
+                color: rgb(30, 30, 38);
+                font-size: 25px;
+                display: none;
+            }
+
+    /* SECCION 1 - MAIN */   
+
+        #bloqueAseccion1 {
+            width: 30.48vw;
+            margin-bottom: 184px;
+        }
+
+        h1 {
+            font-size: 58px;
+            letter-spacing: -0.035em;
+            color: rgb(35, 44, 80);
+        }
+
+        #parrafo1 {
+            width: 24.30vw;
+            margin: 28px 0px;
+            font-size: 16px;
+        }
+
+        #grafico {
+            width: 40.28vw;
+            margin-bottom: 148.5px;
+        }
+
+    /* SECCION 2 - MAIN */
+
+        #seccion2 {
+            align-items: flex-start;
+        }
+
+        #subtitulo1 {
+            color: rgb(35, 40, 81);
+            font-size: 36px;
+            width: 30.06vw;
+            margin-bottom: 36px;
+        }
+
+        #parrafo2 {
+            color: rgb(0, 0, 0);
+            width: 23.40vw;
+            font-size: 16px;
+        }
+
+        .contenedorBloqueBSeccion2 {
+            position: relative;
+        }
+
+        .subtitulosDerSeccion2 {
+            color: rgb(50, 56, 81);
+            font-size: 16px;
+            width: 15.83;
+            margin-bottom: 18px;
+        }
+
+        .parrafosDerSeccion2 {
+            color: rgb(179, 178, 183);
+            width: 30.34vw;
+            font-size: 16,3px;
+            margin-bottom: 42px;
+            text-align: justify;
+        }
+
+        /* SEUDOELEMENTOS - BLOQUE B SECCION 2*/
+
+            .subtitulosDerSeccion2::before {
+                content: "01";
+                background-color: rgb(243, 97, 60);
+                font-size: 16px;
+                color: rgb(255, 255, 255);
+                padding: 10px 25px;
+                border-radius: 30px;
+                position: absolute;
+                left: -6.38vw;
+                top: -10px;
+            }
+
+            #numero2::before {
+                content: "02";
+            }
+
+            #numero3::before {
+                content: "03";
+            }
+
+    /* SECCION 3 - MAIN */
+
+        #seccion3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    
+        #subtitulo3 {
+            color: rgb(36, 46, 83);
+            font-size: 39.2143px;
+            margin-top: 90.5px;
+            margin-bottom: 74px;
+        }
+
+        .ordenCards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(250, 250, 250);
+            width: 30.90vw;
+            height: 230px;
+        }
+
+        #avatarCards {
+            width: 4.86vw;
+            position: relative;
+            bottom: 2.43vw;
+        }
+
+        .ordenCards h4 {
+            color: rgb(63, 72, 104);
+            font-size: 16.07px;
+            margin: 21px 0px;
+        }
+
+        .ordenCards p {
+            color: rgb(185, 185, 193);
+            font-size: 16px;
+            margin: 0px 21px;
+            text-align: center;
+        }
+
+        .imgRotadoCards {
+            display: none;
+        }
+
+    /* SECCION 4 - MAIN */    
+
+        #seccion4 {
+            display: flex;
+            justify-content: space-around;
+            height: 224px;
+            align-items: center;
+            background-color: rgb(243, 97, 60);
+        }
+
+        #seccion4 h2 {
+            font-size: 40px;
+            letter-spacing: -0.005%;
+            color: rgb(255, 255, 255);
+            width: 30.41vw;
+        }
+        
+    /* FOOTER */
+
+        footer {
+            background-color: rgb(30, 30, 38);
+        } 
+
+        .bloqueFooter {
+            height: 247px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        /* ICONOS REDES SOCIALES */
+
+            .fab {
+                color: rgb(255, 255, 255);
+                margin-right: 0.92vw;
+                font-size: 20px;
+            }
+
+        .inputForm {
+            height: 42px;
+            border-radius: 50px;
+            font-size: 13.18px;
+            border: 0px;
+        }
+
+        #mail {
+            width: 13.95vw;
+            padding-left: 10px;
+            color: rgb(160, 160, 160);
+        }
+
+        footer p {
+            font-size: 12.5px;
+            color: rgb(140, 140, 148);
+            text-align: end;
+        }
+
+        #copyrigtMovil {
+            display: none;
+        }
+
+/* BOTONES */
+
+    .botonGet {
+        background-color: rgb(243, 96, 59);
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+        border: 0px;
+        font-size: 13.1806px;
+        height: 44px;
+        width: 9.30vw;
+    }
+
+    #botonSeccion3 {
+        margin: 45px 0px 180px;
+    }
+
+    #botonSeccion4 {
+        background-color: rgb(255, 255, 255);
+        color: rgb(243, 96, 59);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    #botonFooter {
+        width: 4.375vw;
+        background-color: rgb(243, 96, 59);
+        color: rgb(255, 255, 255);
+        margin-left: 10px;
+    }
+    
+    /* SEUDOCLASES BOTONES*/
+
+        .botonGet:hover, #botonFooter:hover {
+            opacity: 50%;
+            cursor: pointer;
+        }
+
+/* NAVEGADORES */
+
+    li a {
+        text-decoration: none;
+        color: rgb(36, 46, 82);
+    }
+
+    header nav {
+        height: 23px;
+        width: 26.53vw;
+        font-size: 13px;
+    }
+
+    footer nav {
+        height: 141.14px;
+        width: 27.27vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    footer nav ul li a {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+
+    /* SEUDOCLASES NAV*/
+
+        li a:hover {
+            opacity: 50%;
+        }
+
+        footer nav ul li a:hover, .fab:hover {
+            color: rgb(243, 96, 59);
+            cursor: pointer;
+        }
+
+/* MEDIA QUERIES BREAK POINT 375PX */
+
+    @media (max-width: 375px) {
+
+        .botonGet {
+               width: 33vw; 
+        }
+
+        /* HEADER RESPONSIVE */
+        
+            header button, header nav {
+                display: none;
+            }
+            
+            .fas {
+                display: contents;
+                
+            }
+        
+        /* SECCION 1 - MAIN RESPONSIVE */
+            
+            #seccion1 {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            #grafico, #bloqueAseccion1, #parrafo1 {
+                width: 90vw; 
+            }
+
+            #grafico {
+                margin-bottom: 30px;
+            }
+
+            #bloqueAseccion1 {
+                text-align: center;
+                margin-bottom: 80px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            #parrafo1, #parrafo2 {
+                color: rgb(140, 140, 148);
+            }
+
+         /* SECCION 2 - MAIN RESPONSIVE */   
+
+            #seccion2 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #subtitulo1, #parrafo2 {
+                text-align: center;
+                line-height: 35px;
+                width: 95vw;
+                margin-bottom: 40px;
+            }
+
+            .subtitulosDerSeccion2 {
+                width: 95vw;
+                background-color: rgba(243, 96, 59, 20%);
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                padding: 10px 0px;
+                margin-bottom: 20px;
+                padding-left: 90px;
+            }
+
+            .subtitulosDerSeccion2::before {
+                padding: 10px 25px;
+                padding-left: 25px;
+                margin-left: 25px;
+                top: 1px;
+            }
+
+            .parrafosDerSeccion2 {
+                width: 95vw;
+                margin-bottom: 60px;
+            }        
+        
+        /* SECCION 3 - MAIN RESPONSIVE */
+       
+            #subtitulo3 {
+                margin-top: 30px;
+            }
+            
+            .ordenCards {
+                display: none;
+            }
+
+            #CardAliBravo {
+                display: flex;
+                width: 95vw;
+            }
+
+            #avatarCards {
+                width: 20vw;
+                position: relative;
+                bottom: 10vw;
+            }
+
+            .ordenCards h4 {
+                margin-top: 0px;
+            }
+
+            .imgRotadoCards {
+                display: contents;    
+            }
+
+        /* SECCION 4 - MAIN RESPONSIVE */
+
+            #seccion4 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #seccion4 h2 {
+                font-size: 32px;
+                letter-spacing: -0.005%;
+                width: 70vw;
+                text-align: center;
+            }
+        
+        /* FOOTER RESPONSIVE */
+
+            footer {
+                height: 500px;
+            }
+
+            .ordenCuerpo {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            #mail {
+               width: 65vw;
+            }
+
+            #botonFooter {
+                width: 20vw;
+            }
+
+            footer p {
+                display: none;
+            }
+
+            footer nav {
+                width: 70vw;
+            }
+
+            .bloqueFooter {
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+              
+            /* ICONOS REDES SOCIALES */
+                .fab {
+                    font-size: 40px;
+                }
+
+                .bloqueFooter div {
+                    width: 90vw;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            
+            footer img {
+                width: 40vw;
+            }
+
+            #copyrigtMovil {
+                display: contents;
+            }
+    }
